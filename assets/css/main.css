@@ -32,8 +32,8 @@
  
   
   section {
-    color: var(--default-color);
-    background-color: var(--background-color);
+    color: black;
+    background-color: white;
     padding: 60px 0;
     overflow: clip;
   }
@@ -885,7 +885,7 @@
     bottom: -100%;
     z-index: 3;
     transition: all ease-in-out 0.5s;
-    background: rgba(var(--background-color-rgb), 0.9);
+    background: rgba(white, 0.9);
     padding: 15px;
   }
   
@@ -896,7 +896,7 @@
   }
   
   .portfolio .portfolio-item .portfolio-info p {
-    color: rgba(var(--default-color-rgb), 0.7);
+    color: rgba(black 0.7);
     font-size: 14px;
     margin-bottom: 0;
     padding-right: 50px;
